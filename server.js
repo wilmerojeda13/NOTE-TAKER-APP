@@ -82,3 +82,8 @@ app.delete('/api/notes/:id', (req, res) => {
     res.json(true)
 
 });
+
+// Start Listen
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
+});
