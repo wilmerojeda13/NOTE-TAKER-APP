@@ -6,4 +6,4 @@ const fs = require('fs');
 
 //Setting the server and initiating the app
 const app = express();
-const PORT = 
+const PORT = process.env.PORT || 3000
