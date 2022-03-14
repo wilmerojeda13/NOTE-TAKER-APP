@@ -2,7 +2,7 @@
   "name": "note-app",
   "version": "1.0.0",
   "description": "Note taker app project",
-  "main": "server.js",
+  "main": "node server.js",
   "scripts": {
     "test": "node server.js",
     "start": "node server.js"
